@@ -40,11 +40,14 @@ block-size: fit-content;
     
 }
 .left input{
-    margin-inline: 11px;
     width: 320px;
     height: 33px;
-    border: none;
     text-align: center;
+    margin-inline: 11px;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
     margin: auto;
 
 }
