@@ -10,7 +10,7 @@ body {
     overflow-x: hidden; /* Hide horizontal scrollbar */
   }
 
-body {width: 100%;
+body {
     width: fit-content;
 block-size: fit-content;
     font-family: Roboto;
@@ -19,30 +19,30 @@ block-size: fit-content;
 }
 .fnav{
     
-    width: 100%;
+    
     display: flex;
     justify-content: center;
     justify-content: space-around;
    
-    padding: 0.5%;
+    padding: 6px;
     color: rgba(255, 255, 255, 0.863);
     background-color: rgb(51, 51, 68);
 }
 .fnav .left{
     display:flex;
-    margin-top:2% ;
+    margin-top:10px ;
     margin-left: -12%;
 }
 .left img{
-    width: 40%;
+    width: 33%;
     
    
     
 }
 .left input{
     margin-inline: 11px;
-    width: 200%;
-    height: 50%;
+    width: 320px;
+    height: 33px;
     border: none;
     text-align: center;
     margin: auto;
