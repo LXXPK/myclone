@@ -6,12 +6,13 @@
 body::-webkit-scrollbar {
     display: none;
 }
-body {
-    overflow-x: hidden; /* Hide horizontal scrollbar */
-  }
+html,body{
+    overflow-x: hidden;
+}
+
 
 body {
-    width: fit-content;
+    width: 100%;
 block-size: fit-content;
     font-family: Roboto;
   -ms-overflow-style: none;  
@@ -19,7 +20,7 @@ block-size: fit-content;
 }
 .fnav{
     
-    
+    width:100%;
     display: flex;
     justify-content: center;
     justify-content: space-around;
@@ -35,19 +36,13 @@ block-size: fit-content;
 }
 .left img{
     width: 33%;
-    
-   
-    
 }
 .left input{
+    margin-inline: 11px;
     width: 320px;
     height: 33px;
+    border: none;
     text-align: center;
-    margin-inline: 11px;
-    border-width: initial;
-    border-style: none;
-    border-color: initial;
-    border-image: initial;
     margin: auto;
 
 }
